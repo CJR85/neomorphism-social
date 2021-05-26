@@ -41,6 +41,7 @@ a {
 a i {
   font-size: 50px;
   color: #777;
+  transition: transform 0.5s;
 }
 
 a:hover {
@@ -50,4 +51,28 @@ a:hover {
     0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(0, 0, 0, 0.01);
   transform: translateY(2px);
+}
+
+a:hover i {
+  transform: scale(0.9);
+}
+
+a:hover .fa-facebook {
+  color: #3b5998;
+}
+
+a:hover .fa-twitter {
+  color: #00acee;
+}
+
+a:hover .fa-github {
+  color: #000000;
+}
+
+a:hover .fa-instagram {
+  color: #f14843;
+}
+
+a:hover .fa-linkedin-in {
+  color: #3b5998;
 }
